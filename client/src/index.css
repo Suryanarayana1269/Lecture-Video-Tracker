@@ -1,0 +1,169 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Navbar Styling */
+  nav {
+    background-color: #1e90ff; /* Modern blue shade */
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: #5cb607;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f8b303; /* Highlight color */
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Forms */
+  form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  form input:focus {
+    border-color: #1e90ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+  }
+  
+  form button {
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  /* Video Player */
+  video {
+    display: block;
+    margin: 30px auto;
+    border: 3px solid #1e90ff;
+    border-radius: 15px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Progress Display */
+  div {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  /* Admin Dashboard */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e90ff;
+  }
+  
+  .chart-container {
+    margin: 30px auto;
+    max-width: 900px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Additional Styling for Responsiveness */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    .chart-container {
+      padding: 20px;
+    }
+  }
+/* Black Background with Smooth Gradient Animation */
+body {
+    background: linear-gradient(90deg, #000000, #1e1e1e, #333333, #1e1e1e, #000000);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: #ffffff; /* Ensure text is visible on a dark background */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Bold Progress Bar */
+div {
+    font-weight: bold;
+    color: #5cb607;
+}

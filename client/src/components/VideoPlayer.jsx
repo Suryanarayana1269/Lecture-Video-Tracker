@@ -29,7 +29,7 @@ const VideoPlayer = ({ userId, videoId, videoSrc }) => {
   // Fetch progress from the backend
   const fetchProgress = async () => {
     try {
-      const { data } = await axios.get("http://localhost:5000/api/progress/get", {
+      const { data } = await axios.get("https://lecture-video-tracker.onrender.com/api/progress/get", {
         params: { userId, videoId },
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
@@ -65,7 +65,7 @@ const VideoPlayer = ({ userId, videoId, videoSrc }) => {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/progress/save",
+        "https://lecture-video-tracker.onrender.com/api/progress/save",
         {
           userId,
           videoId,

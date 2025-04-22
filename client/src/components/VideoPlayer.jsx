@@ -195,7 +195,7 @@ const VideoPlayer = ({ userId, videoId, videoSrc }) => {
         onSeeking={handleSeeking}
         onEnded={handleVideoEnd}
       >
-        <source src="/BookNest Demo video.mp4" type="video/mp4" />
+        <source src="/3.mp4" type="video/mp4" />
         Your browser does not support HTML5 video.
       </video>
       <div style={{ marginTop: "10px" }}>

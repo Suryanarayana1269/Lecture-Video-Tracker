@@ -58,7 +58,7 @@ Lecture Video Tracker is a web application designed to help users track their pr
    `npm run dev`
 
 Note: There is no Pre-existed videos you have to upload your videos in client/public/ path and also update `/sample_video.mp4` video link in VideoPlayer.jsx at the last in the given image below:
-<img src="![image](https://github.com/user-attachments/assets/586fec01-3cbe-48f6-a12b-a976e77f1fdf)">
+<img src="https://github.com/user-attachments/assets/586fec01-3cbe-48f6-a12b-a976e77f1fdf">
 
 ### Project Structure
 Client
@@ -97,13 +97,13 @@ GET /api/analytics: Fetch analytics data (requires authentication).
 
 ### Screenshots and Demo Video
 Home Page
-<img alt="Home Page" src="C:\Users\surya\OneDrive\Pictures\Screenshots\Screenshot 2025-04-22 202400.png">
+C:\Users\surya\OneDrive\Pictures\Screenshots\Screenshot 2025-04-22 202400.png
 Admin Dashboard
-<img alt="Admin Dashboard" src="C:\Users\surya\OneDrive\Pictures\Screenshots\Screenshot 2025-04-22 202709.png">
+C:\Users\surya\OneDrive\Pictures\Screenshots\Screenshot 2025-04-22 202709.png
 
 ### Demo Video 
 Watch the demo video to see the application in action:  
-[![Watch the Demo](https://drive.google.com/file/d/1xPPzNP8O6-0olVmbKD5tjWJ_VOeS4Yi3/view?usp=drive_link)]
+https://drive.google.com/file/d/1xPPzNP8O6-0olVmbKD5tjWJ_VOeS4Yi3/view?usp=drive_link
 
 ### Documentation
 https://docs.google.com/document/d/179ZuxeC0_ox_XQcUkWXhp7q7ZZYhi6nv/edit?usp=drive_link&ouid=112556775906577700191&rtpof=true&sd=true

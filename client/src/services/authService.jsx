@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://lecture-video-tracker.onrender.com/api/auth";
 
 // Login user and store token in localStorage
 export const login = async (email, password) => {

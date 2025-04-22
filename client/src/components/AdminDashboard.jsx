@@ -31,7 +31,7 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/analytics", {
+        const response = await fetch("https://lecture-video-tracker.onrender.com/api/analytics", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`, // Include token
           },

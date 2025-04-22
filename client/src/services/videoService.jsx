@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/progress";
+const API_URL = "https://lecture-video-tracker.onrender.com/api/progress";
 
 // Fetch video progress
 export const getVideoProgress = async (userId, videoId) => {
